@@ -1,0 +1,17 @@
+/*-------------------*\
+-- HEADER
+\*-------------------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: $container-main-width;
+  margin: 0 auto;
+  padding: 0 5rem;
+  height: 13rem;
+
+  &__nav-box {
+    width: 36.6rem;
+  }
+}
